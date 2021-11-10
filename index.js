@@ -44,7 +44,6 @@ client.on('interactionCreate', async interaction => {
                 ephemeral: true
             });
     }
-
 });
 
 // login bot
