@@ -5,6 +5,6 @@ module.exports = {
         if(!data) {
             throw new Error('A url must be provided');
         }
-        return `${googleAPIURL}&kchl="${data}"${height && width ? "&chs=" + height + "x" + width :"&chs=200x200"}${color?"&chco=" + color :""}`;
+        return `${googleAPIURL}&chl="${data}"${height && width ? "&chs=" + height + "x" + width :"&chs=200x200"}${color?"&chco=" + color :""}`;
     }
 }
