@@ -1,4 +1,4 @@
-// load the envirinment varibales into node process object
+// load the environment varibales into node process object
 require('dotenv').config();
 
 const fs = require('fs');
